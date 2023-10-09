@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Hawkeye (2021) created by Jonathan Igla</title>
+    <link rel="stylesheet" href="/css/movie_page.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+		<div class="navbar_container">
+			<a href="/index.html" id="navbar_logo">Filmreels</a>
+			<div class="navbar_menu">
+				<li class="navbar_item">
+					<a href="/index.html" class="navbar_links" id="home-page">Home</a>
+				</li>
+				<li class="navbar_item">
+					<a href="/index.html" class="navbar_links" id="movie-page">Movies</a>
+				</li>
+				<li class="navbar_item">
+					<a href="/index.html" class="navbar_links" id="tv-page">TV Series</a>
+				</li>
+				<li class="navbar_btn">
+					<a href="/pages/sign_in.html" class="button" id="signin">Sign In</a>
+				</li>
+			</div>
+		</div>
+	</nav>
+	<div class="movie-wrapper">
+		<div class="movie-info">
+			<img id="movie-poster" src="/images/tv_posters/hawkeyePoster.jpg">
+			<ul id="detail-1">
+				<li data-tooltip="159,030 thành viên đã xem"><span><i class="fas fa-eye"></i></span> 8.9k</li>
+				<li data-tooltip="50,318 lượt thích"><span><i class="fas fa-heart"></i></span> 3.5k</li>
+			</ul>
+			<div id="detail-2">
+				<h3>Watch the series</h3>
+				<div id="season-num"><b>Season 1</b></div>
+				<div  id="trailer-btn">
+					<a onclick="toggle();"><i class="fas fa-play-circle"></i> Trailer</a>
+				</div>
+				<ul id="watch-sites">
+					<li>
+						<img class="site-logos" src="/images/app-logo/disneyplus.webp">
+						<a class="site-link">Disney+</a>
+					</li>
+				</ul>
+			</div>
+			<div class="trailer">
+				<iframe width="720" height="405" src="https://www.youtube.com/embed/5VYb3B1ETlk">
+				</iframe>
+				<img class="close-trailer" src="/images/close.png" onclick="toggle();">
+			</div>
+		</div>
+		<div class="review-section">
+			<div class="movie-banner" id="movie-banner">
+				<img src="/images/backdrops/hawkeyeBackdrop.jpg">
+				<div class="banner-shadow"></div>
+			</div>
+			<div id="detail-3">
+				<div id="overview">
+					<h3>Overview</h3>
+					<p>Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton’s past threatens to derail far more than the festive spirit.</p>
+					<ul id="crew">
+						<li class="crew-info">Director: <a href="#">Rhys Thomas</a> <a href="#">Bert & Bertie</a></li>
+						<li class="crew-info">Producers: <a href="#">Jonathan Igla</a> <a href="#">Rhys Thomas</a> <a href="#">Trinh Tran</a> <a href="#">Brad Winderbaum</a></li>
+						<li class="crew-info">Screenwriter: <a href="#">Jonathan Igla</a> <a href="#">Elisa Climent</a> <a href="#">Katie Mathewson</a> <a href="#">Tanner Bean</a> <a href="#">Heather Quinn</a> <a href="#">Erin Cancino</a> <a href="#">Heather Quinn</a></li>
+						<li class="crew-info">Editor: <a href="#">Terel Gibson</a> <a href="#">Rosanne Tan</a> <a href="#">Tim Roche</a></li>
+						<li class="crew-info">Cinematography: <a href="#">Eric Steelberg</a> <a href="#">James Whitaker</a></li> 
+						<li class="crew-info">Music composer: <a href="#">Christophe Beck</a> <a href="#">Michael Paraskevas</a></li>
+					</ul>
+				</div>
+				<div id="cast">
+					<h3>Cast</h3>
+					<ul class="carousel">
+						<li class="item">
+							<div class="actor-container">
+								<img class="actor-img" src="/images/hawkeye_actors/jeremyRenner.jpg">
+								<a class="actor-link" href="/pages/actor_page.html">Jeremy Renner</a>
+								<p class="actor-role">Clint Barton / Hawkeye</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="actor-container">
+								<img class="actor-img" src="/images/hawkeye_actors/haileeSteinfeld.jpg">
+								<a class="actor-link" href="#">Hailee Steinfeld</a>
+								<p class="actor-role">Kate Bishop</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="actor-container">
+								<img class="actor-img" src="/images/hawkeye_actors/tonyDalton.jpg">
+								<a class="actor-link" href="#">Tony Dalton</a>
+								<p class="actor-role">Jack Duquesne</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="actor-container">
+								<img class="actor-img" src="/images/hawkeye_actors/alaquaCox.jpg">
+								<a class="actor-link" href="#">Alaqua Cox</a>
+								<p class="actor-role">Maya Lopez / Echo</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="actor-container">
+								<img class="actor-img" src="/images/hawkeye_actors/fraFee.jpg">
+								<a class="actor-link" href="#">Fra Fee</a>
+								<p class="actor-role">Kazimierz 'Kazi' Kazimierczak</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="actor-container">
+								<img class="actor-img" src="/images/hawkeye_actors/veraFarmiga.jpg">
+								<a class="actor-link" href="#">Vera Farmiga</a>
+								<p class="actor-role">Eleanor Bishop</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="actor-container">
+								<img class="actor-img" src="/images/hawkeye_actors/PiotrAdamczyk.jpg">
+								<a class="actor-link" href="#">Piotr Adamczyk</a>
+								<p class="actor-role">Tomas</p>
+							</div>
+						</li>
+					</ul>
+					<ul id="genre-list">
+						<li><h3>Genre:</h3></li>
+						<li class="genre"><a>Action</a></li>
+						<li class="genre"><a>Adventure</a></li>
+						<li class="genre"><a>Drama</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="rating-wrap">
+				<div class="input-review">
+					<textarea class="user-review" id="user-review" placeholder=" Share your thoughts..."></textarea>
+					<div id="rating-btns">
+						<fieldset class="rating">
+							<input type="radio" id="star5" name="rating" value="5"/><label for="star5"></label>
+							<input type="radio" id="star4" name="rating" value="4"/><label for="star4"></label>
+							<input type="radio" id="star3" name="rating" value="3"/><label for="star3"></label>
+							<input type="radio" id="star2" name="rating" value="2"/><label for="star2"></label>
+							<input type="radio" id="star1" name="rating" value="1"/><label for="star1"></label>
+						</fieldset>
+						<fieldset class="like">
+							<input type="checkbox" id="like-btn">
+							<label for="like-btn" class="fas fa-bars"></label>
+						</fieldset>
+						<button id="send-btn">POST</button>
+					</div>
+				</div>
+				<div id="review-container">
+					<h3>Other reviews:</h3>
+					<div class="review">
+						<div class="user-profile">
+							<img class="user-img" src="/images/user-profile/user5.jpg">
+							<div class="username"><b>NasirHood</b></div>
+							<div class="user-star-rating"><span class="gold-star">★★★★</span>★</div>
+						</div>
+						<p>Sed dapibus, odio sed euismod lacinia, dolor sem tempus est, et sollicitudin orci lorem nec eros. In porttitor ante quis erat suscipit malesuada. Sed viverra bibendum dapibus. Phasellus sed tristique nunc. Nam sit amet nibh sed mi dictum fermentum in at lectus. Mauris et erat ut diam rhoncus luctus. Ut semper tellus in nunc blandit aliquam. In ultricies accumsan metus, vehicula vestibulum dolor commodo at. Curabitur in sapien nec sapien bibendum suscipit. Integer purus neque, efficitur ac neque sed, semper vulputate magna.</p>
+					</div>
+					<div class="review">
+						<div class="user-profile">
+							<img class="user-img" src="/images/user-profile/user6.png">
+							<div class="username"><b>james_woo</b></div>
+							<div class="user-star-rating"><span class="gold-star">★★</span>★★★</div>
+						</div>
+						<p>Duis in ultricies tellus. Nam eget commodo est. Nulla congue, orci sit amet mattis vehicula, felis orci mattis enim, ac volutpat urna lacus in nibh. Etiam bibendum odio non sapien ultricies vestibulum. Maecenas pellentesque urna vel turpis rutrum, vel ultricies libero pulvinar. Sed elementum tortor eget purus hendrerit consectetur.</p>
+					</div>
+					<div class="review">
+						<div class="user-profile">
+							<img class="user-img" src="/images/user-profile/user7.jpg">
+							<div class="username"><b>cinema101</b></div>
+							<div class="user-star-rating"><span class="gold-star">★★★</span>★★</div>
+						</div>
+						<p>Morbi accumsan, leo non efficitur pretium, est ante egestas tortor, nec eleifend nunc nisl a tellus. Donec ut bibendum turpis. Sed eros nulla, porttitor id diam non, condimentum aliquam felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam at orci sollicitudin, porta felis in, dictum metus. Donec volutpat bibendum mauris at pretium. Donec ac tortor ac tortor luctus pellentesque vitae eget leo. Etiam eget molestie augue, eu aliquet turpis. Fusce eget turpis est.</p>
+					</div>
+					<div class="review">
+						<div class="user-profile">
+							<img class="user-img" src="/images/user-profile/user8.jpg">
+							<div class="username"><b>TomosKennedy</b></div>
+							<div class="user-star-rating"><span class="gold-star">★★★</span>★★</div>
+						</div>
+						<p>Cras pellentesque libero in bibendum venenatis. Proin imperdiet malesuada ipsum, nec commodo nisl sagittis vulputate. Praesent eleifend risus at pellentesque tincidunt. Maecenas vitae efficitur eros, eget posuere tellus. In feugiat odio velit, non tristique orci gravida ac. Cras faucibus orci at sollicitudin consequat. Vestibulum porttitor lorem ex, at facilisis ligula posuere nec. Nunc felis nunc, ultricies sed velit vel, congue scelerisque massa. Fusce non tristique turpis. Nam convallis quam quis blandit varius. Donec pellentesque porta ante, finibus elementum mauris bibendum nec. Etiam at ligula aliquam, tempor mi in, bibendum nibh.</p>
+					</div>
+					<a href="#" id="more-btn">Read more. . .</a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="footer" id="footer">
+		<div class="footer-wrapper">
+			<div class="footer-option">
+				<ul>
+					<li>About</li>
+					<li data-tooltip="Upgrade your account">Filmreels Pro</li>
+					<li data-tooltip="Listen to our podcasts">Podcast</li>
+					<li>Help</li>
+					<li>Privacy Policy</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div class="footer-social">
+				<ul>
+					<li id="facebook" data-tooltip="Facebook">
+						<i class="fab fa-facebook"></i>
+					</li>
+					<li id="twitter" data-tooltip="Twitter">
+						<i class="fab fa-twitter"></i>
+					</li>
+					<li id="instagram" data-tooltip="Instagram">
+						<i class="fab fa-instagram"></i>
+					</li>
+					<li id="youtube" data-tooltip="Youtube">
+						<i class="fab fa-youtube"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p><span id="copyright">&#169;</span> Etiam quam nunc, dignissim eu porttitor ac, vehicula non sem. Cras non vehicula ex.</p>
+	</div>
+</body>
+<script src="/scripts/trailer_toggle.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+	$('.carousel').slick({
+		infinite: true,
+		adaptiveHeight: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+	});
+</script>
+</html>

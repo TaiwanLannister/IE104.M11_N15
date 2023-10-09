@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filmreels • Sign in!</title>
+    <link rel="stylesheet" href="/css/sign_in.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+	<!--Main container-->
+    <div class="main-container">
+		<div class="moving-background">
+			<div id="bg-img"></div>
+		</div>
+		<div class="sign-in-container">
+			<a href="/index.html" id="logo"><p>Filmreels</p></a>
+			<form class="sign-in-form">
+				<h3>Username</h3>
+				<div><input type="text" autocomplete="off" id="e-mail" placeholder="Enter e-mail or username"><i class="far fa-envelope"></i></div>
+				<h3>Password</h3>
+				<div><input type="password" id="password" placeholder="Enter password"><button class="toggle-password" id="pass-btn" onclick="toggle_pass(); return false;"><i class="far fa-eye"></i></button></div>
+				<span id="error-message"></span>
+				<button id="submit-btn" onclick="account_valid(); return false;">Sign in</button>
+			</form>
+			<div class="sign-in-footer">
+				<div class="sign-in-footer-container">
+					<div class="remember">
+						<input type="checkbox" id="checkbox">
+						<span id="checkmark"></span>
+						<p>Remember me</p>
+					</div>
+					<a class="forget" href="#">Forgot Password?</a>
+				</div>
+				<div class="sign-up">
+					<p>Need an account?</p>
+					<button id="sign-up-btn">Sign up</button>
+				</div>
+			</div>
+		</div>
+    </div>
+	<!--Footer section-->
+	<div class="footer" id="footer">
+		<div class="footer-wrapper">
+			<div class="footer-option">
+				<ul>
+					<li>About</li>
+					<li data-tooltip="Upgrade your account">Filmreels Pro</li>
+					<li data-tooltip="Listen to our podcasts">Podcast</li>
+					<li>Help</li>
+					<li>Privacy Policy</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div class="footer-social">
+				<ul>
+					<li id="facebook" data-tooltip="Facebook">
+						<i class="fab fa-facebook"></i>
+					</li>
+					<li id="twitter" data-tooltip="Twitter">
+						<i class="fab fa-twitter"></i>
+					</li>
+					<li id="instagram" data-tooltip="Instagram">
+						<i class="fab fa-instagram"></i>
+					</li>
+					<li id="youtube" data-tooltip="Youtube">
+						<i class="fab fa-youtube"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p><span id="copyright">&#169;</span> Etiam quam nunc, dignissim eu porttitor ac, vehicula non sem. Cras non vehicula ex.</p>
+	</div>
+</body>
+<script src="/scripts/nav_bar_scoll.js"></script>
+<script src="/scripts/password_toggle.js"></script>
+<script src="/scripts/account_valid.js"></script>
+<script src="https://kit.fontawesome.com/e634fe22c6.js" crossorigin="anonymous"></script>
+</html>

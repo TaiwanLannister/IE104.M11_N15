@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Films starring Thomasin McKenzie</title>
+    <link rel="stylesheet" href="/css/actor_page.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+		<div class="navbar_container">
+			<a href="/index.html" id="navbar_logo">Filmreels</a>
+			<div class="navbar_menu">
+				<li class="navbar_item">
+					<a href="/index.html" class="navbar_links" id="home-page">Home</a>
+				</li>
+				<li class="navbar_item">
+					<a href="/index.html" class="navbar_links" id="movie-page">Movies</a>
+				</li>
+				<li class="navbar_item">
+					<a href="/index.html" class="navbar_links" id="tv-page">TV Series</a>
+				</li>
+				<li class="navbar_btn">
+					<a href="/pages/sign_in.html" class="button" id="signin">Sign In</a>
+				</li>
+			</div>
+		</div>
+	</nav>
+    <div class="main-container">
+        <div class="profile-container">
+            <img class="actor-img" src="/images/soho_actors/thomasinMcKenzie.jpg">
+            <div class="actor-bio">
+                <p>Thomasin Harcourt McKenzie (born 26 July 2000) is an actress from New Zealand. After a minor role in The Hobbit: The Battle of Five Armies, she rose to critical prominece with the lead role in Debra Granik's 2018 drama film Leave No Trace. After supporting roles in the 2019 films The King, Jojo Rabbit and True History of the Kelly Gang, as well as the 2021 thriller Old, Edgar Wright's psychological horror film Last Night in Soho established her as one of the industry's lead actresses.</p>
+                <p id="more-info"><i class="fas fa-info-circle"></i> More info at <a class="outer-link" href="https://www.imdb.com/name/nm5057169/?ref_=nv_sr_srsg_0">IMDB</a> <a class="outer-link" href="https://www.themoviedb.org/person/1356758-thomasin-mckenzie?language=en-US">TMDB</a></p>
+            </div>
+        </div>
+        <div class="starring-films">
+            <p>FILMS STARRING</p>
+            <h2>Thomasin McKenzie</h2>
+            <div class="films">
+                <div class="movie-poster"></a></div>
+                <div class="movie-poster"><a class="movie-link" href="/pages/movie_page.html"></a></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+                <div class="movie-poster"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+		<div class="footer-wrapper">
+			<div class="footer-option">
+				<ul>
+					<li>About</li>
+					<li data-tooltip="Upgrade your account">Filmreels Pro</li>
+					<li data-tooltip="Listen to our podcasts">Podcast</li>
+					<li>Help</li>
+					<li>Privacy Policy</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div class="footer-social">
+				<ul>
+					<li id="facebook" data-tooltip="Facebook">
+						<i class="fab fa-facebook"></i>
+					</li>
+					<li id="twitter" data-tooltip="Twitter">
+						<i class="fab fa-twitter"></i>
+					</li>
+					<li id="instagram" data-tooltip="Instagram">
+						<i class="fab fa-instagram"></i>
+					</li>
+					<li id="youtube" data-tooltip="Youtube">
+						<i class="fab fa-youtube"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p><span id="copyright">&#169;</span> Etiam quam nunc, dignissim eu porttitor ac, vehicula non sem. Cras non vehicula ex.</p>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+	$('.carousel-name').slick({
+		infinite: true,
+		adaptiveHeight: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+	});
+</script>
+</html>

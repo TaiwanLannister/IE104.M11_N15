@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filmreels • Watch, share and discover!</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+	<nav class="navbar" id="navbar">
+		<div class="navbar_container">
+			<a href="#home" id="navbar_logo">Filmreels</a>
+			<div class="navbar_menu">
+				<li class="navbar_item">
+					<a href="#" class="navbar_links" id="home-page">Home</a>
+				</li>
+				<li class="navbar_item">
+					<a href="#movies" class="navbar_links" id="movie-page">Movies</a>
+				</li>
+				<li class="navbar_item">
+					<a href="#tv" class="navbar_links" id="tv-page">TV Series</a>
+				</li>
+				<li class="navbar_btn">
+					<a href="/pages/sign_in.html" class="button" id="signin">Sign In</a>
+				</li>
+			</div>
+		</div>
+	</nav>
+
+	<!--Header Section-->
+	<div class="header" id="header">
+		<div class="header-container">
+			<h1>Lorem Ipsum!</h1>
+			<p>Maecenas ultrices purus mattis, luctus nunc ac, porta magna. Sed ultricies hendrerit mi eget sodales. Phasellus porttitor nulla eget eleifend rutrum. Morbi justo quam, suscipit ac auctor vestibulum, convallis non nulla. Pellentesque et nisi odio. Phasellus eu libero sodales, rhoncus urna in, scelerisque ligula. Fusce leo turpis, rutrum id mauris sed, vestibulum rhoncus nisi. Nulla interdum vehicula lacus, vel vulputate purus laoreet sit amet.</p>
+			<button id="sign-up-btn" onlick="location.href='/pages/signIn.html'"><span>JOIN NOW </span></button>
+		</div>
+	</div>
+	<!--Movie section-->
+	<div class="movies" id="movies">
+		<div class="searchbar" id="searchbar">
+			<input type="text" placeholder="Search films and TV shows...">
+			<i class="fas fa-search"></i>
+		</div>
+		<h1><i class="fas fa-film"></i> Now Playing in Theaters!</h1>
+		<div class="movies_wrapper">
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>The King's Man</b></p>
+						<p class="m-info">22/12/2021</p>
+						<p class="m-info">Dir: Matthew Vaughn</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>The Matrix Resurrections</b></p>
+						<p class="m-info">22/12/2021</p>
+						<p class="m-info">Dir: Lana Wachowski</p>
+					</a>
+				</div>
+			</div>			
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>Spider-Man: No Way Home</b></p>
+						<p class="m-info">17/12/2021</p>
+						<p class="m-info">Dir: Jon Watts</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="/pages/movie_page.html">
+						<p class="m-title"><b>Last Night in Soho</b></p>
+						<p class="m-info">29/10/2021</p>
+						<p class="m-info">Dir: Edgar Wright</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>Dune</b></p>
+						<p class="m-info">21/10/2021</p>
+						<p class="m-info">Dir: Denis Villeneuve</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>No Time to Die</b></p>
+						<p class="m-info">8/10/2021</p>
+						<p class="m-info">Dir: Cary Joji Fukunaga</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>Don't Look Up</b></p>
+						<p class="m-info">10/12/2021</p>
+						<p class="m-info">Dir: Adam McKay</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>The Suicide Squad</b></p>
+						<p class="m-info">6/8/2021</p>
+						<p class="m-info">Dir: James Gunn</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>Spencer</b></p>
+						<p class="m-info">5/11/2021</p>
+						<p class="m-info">Dir: Pablo Larraín</p>
+					</a>
+				</div>
+			</div>
+			<div class="movie_poster">
+				<div class="movies_btn">
+					<a href="">
+						<p class="m-title"><b>Tick, Tick... Boom!</b></p>
+						<p class="m-info">12/11/2021</p>
+						<p class="m-info">Dir: Lin-Manuel Miranda</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Series section-->
+	<div class="tv-section" id="tv">
+		<h1><i class="fas fa-tv"></i> Now Streaming!</h1>
+		<div class="carousel-container">
+			<ul class="show-carousel">
+				<li class="show-poster">
+					<p><b>Peaky Blinders</b><br>6 seasons<br>Creator: Steven Knight</p>
+					<img src="/images/tv_posters/blinderPoster.jpg">
+				</li>
+				<li class="show-poster">
+					<a href="/pages/series_page.html">
+						<p><b>Hawkeye</b><br>1 season<br>Creator: Jonathan Igla</p>
+						<img src="/images/tv_posters/hawkeyePoster.jpg">
+					</a>
+				</li>
+				<li class="show-poster">
+					<p><b>Hellbound</b><br>1 season<br>Creator: Byun Seung-min</p>
+					<img src="/images/tv_posters/hellboundPoster.jpg">
+				</li>
+				<li class="show-poster">
+					<p><b>Succession</b><br>3 seasons<br>Creator: Jesse Armstrong</p>
+					<img src="/images/tv_posters/successionPoster.jpg">
+				</li>
+				<li class="show-poster">
+					<p><b>Squid Game</b><br>1 season<br>Creator: Hwang Dong-hyuk</p>
+					<img src="/images/tv_posters/squidPoster.jpg">
+				</li>
+				<li class="show-poster">
+					<p><b>Chucky</b><br>1 season<br>Creator: Don Mancini</p>
+					<img src="/images/tv_posters/chuckyPoster.jpg">
+				</li>
+				<li class="show-poster">
+					<p><b>Invincible</b><br>1 season<br>Creator: Robert Kirkman</p>
+					<img src="/images/tv_posters/markPoster.jpg">
+				</li>
+				<li class="show-poster">
+					<p><b>The Queen's Gambit</b><br>1 season<br>Creator: Scott Frank</p>
+					<img src="images/tv_posters/qgPoster.jpg">
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--News section-->
+	<div class="news-section">
+		<h1>LATEST NEWS</h1>
+		<div class="news-container">
+			<div class="news-post">
+				<img class="news-img" src="images/news_images/news1.jpg">
+				<div class="news-preview">
+					<h3>Lorem Ipsum</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem distinctio rem consectetur consequatur porro eum quia illo atque! Accusamus fugiat obcaecati tenetur architecto aliquid praesentium dolorum est ipsa rerum voluptas?</p>
+				</div>
+			</div>
+			<div class="news-post">
+				<img class="news-img" src="images/news_images/news2.png">
+				<div class="news-preview">
+					<h3>Lorem Ipsum</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem distinctio rem consectetur consequatur porro eum quia illo atque! Accusamus fugiat obcaecati tenetur architecto aliquid praesentium dolorum est ipsa rerum voluptas?</p>
+				</div>
+			</div>
+			<div class="news-post">
+				<img class="news-img" src="images/news_images/news3.png">
+				<div class="news-preview">
+					<h3>Lorem Ipsum</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem distinctio rem consectetur consequatur porro eum quia illo atque! Accusamus fugiat obcaecati tenetur architecto aliquid praesentium dolorum est ipsa rerum voluptas?</p>
+				</div>
+			</div>
+			<div class="news-post">
+				<img class="news-img" src="images/news_images/news4.jfif">
+				<div class="news-preview">
+					<h3>Lorem Ipsum</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem distinctio rem consectetur consequatur porro eum quia illo atque! Accusamus fugiat obcaecati tenetur architecto aliquid praesentium dolorum est ipsa rerum voluptas?</p>
+				</div>
+			</div>
+		</div>
+		<a href="#" id="more-btn">Read more. . .</a>
+	</div>
+	<!--Footer section-->
+	<div class="footer" id="footer">
+		<div class="footer-wrapper">
+			<div class="footer-option">
+				<ul>
+					<li>About</li>
+					<li data-tooltip="Upgrade your account">Filmreels Pro</li>
+					<li data-tooltip="Listen to our podcasts">Podcast</li>
+					<li>Help</li>
+					<li>Privacy Policy</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div class="footer-social">
+				<ul>
+					<li id="facebook" data-tooltip="Facebook">
+						<i class="fab fa-facebook"></i>
+					</li>
+					<li id="twitter" data-tooltip="Twitter">
+						<i class="fab fa-twitter"></i>
+					</li>
+					<li id="instagram" data-tooltip="Instagram">
+						<i class="fab fa-instagram"></i>
+					</li>
+					<li id="youtube" data-tooltip="Youtube">
+						<i class="fab fa-youtube"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p><span id="copyright">&#169;</span> Etiam quam nunc, dignissim eu porttitor ac, vehicula non sem. Cras non vehicula ex.</p>
+	</div>	
+</body>
+<script src="/scripts/nav_bar_scoll.js"></script>
+<script src="https://kit.fontawesome.com/e634fe22c6.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+	$('.show-carousel').slick({
+		infinite: true,
+		adaptiveHeight: true,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+	});
+</script>
+</html>
